@@ -1,0 +1,171 @@
+.Post {
+    background: #fff;
+    border: 1px solid blue;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 15px;
+    margin: 40px;
+    width: 500px;
+    align-self: center;
+  }
+  
+  .Header, .InformacoesPessoais {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .ImagemDoPerfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .NomeDoAutor{
+    margin: 0 0 5px 0;
+  }
+  
+  .DataDoPost{
+    margin: 0;
+    color: gray;
+  }
+  
+  .Menu{
+    align-self: flex-start;
+  }
+  
+  .FotoDoPost {
+    width: 100%;
+    height: auto;
+  }
+  
+  .FooterUp{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .HeartComments {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Heart {
+  /* .HeartComments img{ */
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  .Liked {
+    margin: 0;
+  }
+
+
+  /* Para exercicio da lista de contatos */
+
+ .Lista {
+  background: #fff;
+  border: 1px solid blue;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 15px;
+  margin: 40px;
+  width: 500px;
+  align-self: center;
+  display: block;
+}
+
+.ImagemContato{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.Contato {
+  position: relative;
+  left: 50px;
+}
+
+.ContainerContato {
+  display: flex;
+  margin: 20px;
+}
+
+
+  /* Para exercicio da lista de produtos */
+
+  .Produtos {
+    background: #fff;
+    border: 1px solid blue;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 15px;
+    margin: 40px;
+    width: 1100px;
+    align-self: center;
+    display: block;
+  }
+
+  .ImagemProduto{
+    width: 200px;
+    height: 250px;
+    margin-right: 20px;
+  }
+
+  .Produto {
+    position: relative;
+    left: 30px;
+  }
+
+  .ContainerProduto {
+    display: inline-block;
+    margin: 20px;
+  }
+
+  .Promocao {
+    color: red;
+    font-weight: bold;
+  }
+
+  /* Para lista de Pokemons */
+  .ImagemPokemon{
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+  }
+
+  .ContainerPokemon {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .CardPokemon {
+    position: relative;
+    border-radius: 10%;
+    text-align: center;
+  }
+
+  .IdPokemon {
+    position: relative;
+    border-radius: 20%;
+    text-align: center;
+    background-color: gray;
+    width: 50px;
+    height: 20px;
+    margin-left:50px;
+
+  }
+
+  .Pokedex {
+    background: rgb(199, 197, 197);
+    border: 1px solid rgb(5, 5, 5);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    margin: 40px;
+    width: 1000px;
+    align-self: center;
+    display: block;
+    position: absolute;
+  }

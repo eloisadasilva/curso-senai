@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #42a5f5;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      flex-direction: column;
+    }
+    .text-info {
+      font-size: 10px
+    }
+  }
+  
+  .container {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  img {
+    width: 80px;
+    border-radius: 50%;
+  }
+  
+  .text-info {
+    color: #bdc3c7;
+    margin: 0;
+  }
+  
+

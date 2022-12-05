@@ -1,0 +1,16 @@
+BaixE o programa Postman para Windows/Linux e faça uma requisição GET para o seguinte endereço: https://jsonplaceholder.typicode.com/todos/1
+
+Analise e entenda a resposta que é entregue em formato JSON.
+Em seguida, explique, com suas palavras, o que entendeu a respeito.
+
+
+{
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+
+
+O JSON (JavaScript Object Notation) é um formato compacto de troca de dados simples entre sistemas. 
+O código apresentado mostra 4 atributos, provavelmente referente a uma conexão que precisa de uma identificação (id), identificação do usuário, título e se foi concluída ou não.
